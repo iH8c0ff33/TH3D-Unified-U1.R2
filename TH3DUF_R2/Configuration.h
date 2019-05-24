@@ -181,7 +181,7 @@
 //===========================================================================
 // Creality CR-10S Options - Select 'Arduino Mega 2560' from Tools > Board
 //===========================================================================
-//#define CR10S
+#define CR10S
 //#define CR10S_MINI
 //#define CR10S_S4
 //#define CR10S_S5
@@ -207,7 +207,7 @@
 //#define CR10_VOLCANO
 //#define CR10_V6HEAVYDUTY
 //#define TM3DAERO
-//#define TM3DAERO_EXTENDED
+#define TM3DAERO_EXTENDED
 //#define PETSFANG  //This is the RIGHT mounted version - if using the left mount please use the CUSTOM_PROBE option.
 //#define CUSTOM_PROBE
 
@@ -648,7 +648,7 @@
 // You can do down to 10mm on the Wanhao i3 since it cannot print on the entire bed.
 // You can do down to 5mm on the Wanhao i3 Mini since it cannot print on the entire bed.
 // (only used if EZABL enabled)
-#define EZABL_PROBE_EDGE 15
+#define EZABL_PROBE_EDGE 40
 
 // If you have issues with your machine running the faster probe setting disable the #define EZABL_FASTPROBE below.
 // DO NOTE: Most machines will work with the fast probe enabled. Use M48 to verify accuracy.
@@ -666,7 +666,7 @@
 
 // If you want a more granular control over the babystepping uncomment the below line.
 // This will make the adjustment finer than the standard setting.
-//#define FINE_BABYSTEPPING
+#define FINE_BABYSTEPPING
 
 // This will extrapolate the implied tilt of the bed outside of the probe area. Do not comment out unless directed by support.
 #define EZABL_OUTSIDE_GRID_COMPENSATION
@@ -720,8 +720,8 @@
 
 // If you are using an TH3D Tough Extruder, Bondtech BMG (set steps below to 415), or E3D Titan Extruder
 // uncomment the below line to setup the firmware to the correct steps and direction. Also applicable to Titan/Tough Aero setups.
-//#define TITAN_EXTRUDER
-#define TITAN_EXTRUDER_STEPS 463
+#define TITAN_EXTRUDER
+#define TITAN_EXTRUDER_STEPS 837
 
 // DUAL HOTEND SETTINGS ----------------------------
 
@@ -732,7 +732,7 @@
 // THERMISTOR SETTINGS -----------------------------
 
 // If you are using an E3D V6 Hotend with their cartridge thermistor (not glass version) uncomment the below line.
-//#define V6_HOTEND
+#define V6_HOTEND
 
 // If you are using a Tough Hotend from TH3D or any thermistors TH3D sells for your hotend uncomment the below line.
 //#define TH3D_HOTEND_THERMISTOR
@@ -774,7 +774,7 @@
 //#define FAN_FIX
 
 // Use your own printer name
-//#define USER_PRINTER_NAME "CHANGE ME" 
+#define USER_PRINTER_NAME "Ada" 
 
 // If your printer is homing to the endstops hard uncomment this to change the homing speed/divisor to make it less aggressive.
 //#define SLOWER_HOMING
