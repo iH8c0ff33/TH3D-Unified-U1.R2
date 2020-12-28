@@ -800,7 +800,7 @@
 // How to use - measure (home XY then jog using the LCD 1mm at a time) the X and Y distance the nozzle is off
 // the build plate and then put those as NEGATIVE values below, positive values will NOT work (move your endstops to fix a positve offset).
 #define HOME_ADJUST
-//#define X_HOME_LOCATION -10
+#define X_HOME_LOCATION 0
 #define Y_HOME_LOCATION -20
 
 // LINEAR ADVANCE ----------------------------------
