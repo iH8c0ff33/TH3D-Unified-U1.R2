@@ -1509,7 +1509,7 @@
 
   #if ENABLED(CR10S)
     #define X_BED_SIZE 285
-    #define Y_BED_SIZE 300
+    #define Y_BED_SIZE 280
     #define Z_MAX_POS 400
   #endif
 
